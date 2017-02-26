@@ -10,3 +10,7 @@ edit lines 3 through 10 for your environment.
 ### Run the script ###
 sudo -s  
 ./domain_join.sh
+
+### Sudo Users ###
+Create a new group anywhere in AD called `admin`.
+This grants members of the group permission to enter root on Ubuntu.
